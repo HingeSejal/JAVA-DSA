@@ -1,10 +1,16 @@
 class First {
-   public static void main(String[] args) {
+   public static void main(String args[]) {
       System.out.print("HII");
    }
 }
 
 /*
+
+ function name=> main
+ returnType => void
+ (type arg1) => (String , arg(i/p))
+
+
  How code is running?
 
  1)Compilation
