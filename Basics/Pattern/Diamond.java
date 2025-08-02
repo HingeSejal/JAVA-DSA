@@ -1,4 +1,4 @@
-package Basics;
+package Basics.Pattern;
 
 public class Diamond {
     public static void main(String arg[]){

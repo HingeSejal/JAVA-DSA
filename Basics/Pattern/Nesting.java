@@ -1,4 +1,4 @@
-package Basics;
+package Basics.Pattern;
 
 public class Nesting {
     public static void main(String args[]){
