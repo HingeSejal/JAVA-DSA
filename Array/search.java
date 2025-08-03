@@ -23,7 +23,7 @@ public class search {
                 System.out.println(ans+ "Found at "+ i + " position");
                 break;
             }
-            else{
+            else if(numbers[i] != key) {
                 System.out.println(ans);;
             }
         }
