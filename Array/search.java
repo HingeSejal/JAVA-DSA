@@ -15,11 +15,16 @@ public class search {
         
         System.out.println("Enter key u want to search:");
         int key = sc.nextInt();
+        int ans=-1;
 
         for(int i=0;i<numbers.length;i++){
             if(numbers[i] == key){
-                System.out.println("Found at "+ i + " position");
+                ans= key;
+                System.out.println(ans+ "Found at "+ i + " position");
                 break;
+            }
+            else{
+                System.out.println(ans);;
             }
         }
 
