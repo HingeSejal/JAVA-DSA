@@ -57,6 +57,9 @@ public class SmartDeviceSystem {
         System.out.println("------SmartTV------");
         tv.powerOn();
         tv.StatusReport();
+        if (tv instanceof InternetEnabled){
+            ((InternetEnabled) tv).connectWifi();
+        }
         tv.powerOff();
 
         System.out.println("-------SmartFridge-----");
