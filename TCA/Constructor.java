@@ -1,4 +1,4 @@
-package Lab;
+package TCA;
 
 class Course {
     // Variables to store course details
