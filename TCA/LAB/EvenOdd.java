@@ -1,4 +1,4 @@
-package TCA;
+package TCA.LAB;
 
 class even extends Thread{
     public void run(){

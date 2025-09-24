@@ -1,4 +1,4 @@
-package TCA;
+package TCA.LAB;
 import java.util.Scanner;
 
 class Course {

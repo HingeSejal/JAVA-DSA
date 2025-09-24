@@ -1,4 +1,4 @@
-package TCA;
+package TCA.LAB;
 
 interface  ControllableDevice{
     void powerOn();
