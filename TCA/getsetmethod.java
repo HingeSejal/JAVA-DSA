@@ -1,5 +1,5 @@
 package TCA;
-import java.io.* ;
+ 
 
 class student{
 	private int rno;
