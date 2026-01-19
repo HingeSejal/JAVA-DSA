@@ -1,4 +1,4 @@
-package DSA.Basics.Pattern;
+package DSA.Pattern;
 
 public class Diamond {
     public static void main(String arg[]){

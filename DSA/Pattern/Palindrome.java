@@ -1,4 +1,4 @@
-package DSA.Basics.Pattern;
+package DSA.Pattern;
 
 public class Palindrome {
     public static void main(String args[]){
