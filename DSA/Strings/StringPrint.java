@@ -50,7 +50,19 @@ public class StringPrint {
            System.out.println("They are different strings");
        }
 
-        
+       String Marvalch = "TonyStark";
+     
+       System.out.println(name.substring(0, 4));
+
+       String str = "123";
+       int number = Integer.parseInt(str);
+       System.out.println(number);
+
+      int number1 = 123;
+      String str1 = Integer.toString(number);
+      System.out.println(str.length());
+
 
     }
+    
 }
