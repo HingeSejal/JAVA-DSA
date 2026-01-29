@@ -12,7 +12,7 @@ public class StringPrint {
         
         System.out.println("your midname is : "+ midname);
 
-        String fullname = name+"@"+midname;
+        String fullname = name+"@"+midname ;
 
         System.out.println("your fullname is : "+ fullname);
 
@@ -27,6 +27,7 @@ public class StringPrint {
         //s1<s2 :  +ve value
 
         //depend on first character
+
         if (name.compareTo(midname) == 0) {
             System.out.println("Names are  equal");
         }
@@ -35,7 +36,7 @@ public class StringPrint {
         }
 
         //DO NOT USE == to check for string equality
-       //Gives correct answer here
+        //Gives correct answer here
        if(name == midname) {
            System.out.println("They are the same string");
        } else {
@@ -46,7 +47,8 @@ public class StringPrint {
        //Gives incorrect answer here
        if(new String("Tony") == new String("Tony")) {
            System.out.println("They are the same string");
-       } else {
+       } 
+       else {
            System.out.println("They are different strings");
        }
 
@@ -61,6 +63,8 @@ public class StringPrint {
       int number1 = 123;
       String str1 = Integer.toString(number);
       System.out.println(str.length());
+
+      
 
 
     }
