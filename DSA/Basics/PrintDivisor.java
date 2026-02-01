@@ -10,12 +10,5 @@ public class PrintDivisor {
             }
         }
     
-    for(int i = 1; i <=Math.sqrt(36); i++) {
-        if(36 % i == 0) {
-            System.out.print(i + " ");
-            if(i != 36/i) {
-                System.out.print((36/i) + " ");
-            }
-        }
     }
 }
