@@ -1,0 +1,20 @@
+Servlet
+
+Element	Description
+<%@ page ... %>	Defines page-dependent attributes, such as scripting language, error page, and buffering requirements.
+<%@ include ... %>	Includes a file during the translation phase.
+<%@ taglib ... %>	Declares a tag library, containing custom actions, used on the page.
+
+Element	Description
+<jsp:useBean>	This is for making the JavaBeans component available on a page.
+<jsp:getProperty>	This is used to get a property value from a JavaBeans component and to add it to the response.
+<jsp:setProperty>	This is used to set a value for the JavaBeans property.
+<jsp:include>	This includes the response from a servlet or JSP page during the request processing phase.
+<jsp:forward>	This is used to forward the processing of a request to a JSP page or servlet.
+<jsp:param>	This is used for adding a parameter value to a request given to another servlet or JSP page by using <jsp:include> or <jsp:forward>
+<jsp:plugin>	This is used to generate HTML that contains the proper client browser-dependent elements which are used to execute an Applet with Java Plugin software.
+
+Element	Description
+<% ... %>	Scriptlet used to embed scripting code.
+<%= ... %>	Expression, used to embed Java expressions when the result shall be added to the response. Also used as runtime action attribute values.
+<%! ... %>	Declaration used to declare instance variables and methods in the JSP page implementation class.
