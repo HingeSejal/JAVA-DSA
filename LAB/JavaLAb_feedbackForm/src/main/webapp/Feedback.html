@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Feedback Form</title>
+
+</head>
+
+<body>
+    <h2>Feedback Form</h2>
+
+    <form action="FeedbackServlet" method="post">
+        
+        <label>Name:</label><br>
+        <input type="text" name="name" required><br><br>
+
+        <label>Email:</label><br>
+        <input type="email" name="email" required><br><br>
+
+        <label>Rating (1 to 5):</label><br>
+        <select name="rating" required>
+            <option value="">Select</option>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+        </select><br><br>
+
+        <label>Comments:</label><br>
+        <textarea id="comments" name="comments"
+                  rows="4" cols="30"
+                  onkeyup="limitComments()" required>
+        </textarea><br><br>
+
+        <input type="submit" value="Submit Feedback">
+
+    </form>
+    
+    <script>
+        function limitComments() {
+            var comments = document.getElementById("comments");
+            var maxLength = 200;
+
+            if (comments.value.length > maxLength) {
+                comments.value = comments.value.substring(0, maxLength);
+                alert("Comments limited to 200 characters");
+            }
+        }
+    </script>
+</body>
+</html>
