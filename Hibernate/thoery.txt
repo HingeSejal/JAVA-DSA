@@ -1,0 +1,7 @@
+Where we can see Hibernate in MVC Architecture?
+-> it exists in 
+
+what is HIbernate?
+ORM framework
+object relation mapping
+
