@@ -53,4 +53,34 @@ while Vector is synchronized and is thread-safe.
 what should u chose between arraylist and vector ?
 -> if u need a thread-safe implementation of a list, then Vector may be a good choice.
 -> However, if you do not need thread safety and want better performance, then ArrayList may be a better choice.
+
+
+----------------------- ArrayList vs LinkedList --------------------------------------
+
+ARRAYLIST
+To delete an element from the middle of an ArrayList, 
+-> the elements that come after the deleted element need to be shifted to fill the gap(override the deleted element) 
+-> which can be time-consuming and inefficient, especially for large lists.
+-> Time complexity while shifting becomes O(n) 
+   where n is the number of elements in the list.
+e.g. 11-> 12-> 13-> 14-> 15
+     11-> 12-> 14-> 15 ( delete 13 , rest shift left O(n)) 
+
+LINKEDLIST 
+-> we have nodes and each node has reference to next node and previous node
+e.g. 11-> 12-> 13-> 14-> 15
+     11-> 12-> 14-> 15 ( delete 13 , just update the reference of 12 and 14 to each other O(1)) 
+-> In a LinkedList, deleting an element from the middle is more efficient because it only requires updating the links of the previous and next nodes.
+-> consistent time complexity of O(1) for deletion, regardless of the size of the list.
+-> linkedlist class of java interally uses doubly linked list data structure
+-> In a LinkedList, accessing an element at a specific index requires traversing the list from the beginning or end 
+-> which can be time-consuming for large lists.
+
+Disadvantage of LinkedList 
+-> it uses more memory than an ArrayList because it needs to store additional references for each node.
+-> accessing an element in a LinkedList can be slower
+
+which one is preferable between ArrayList and LinkedList ?
+-> if u need to perform a lot of insertions and deletions , then LinkedList may be a better choice.
+-> However, if u need to perform a lot of random access or retrieval operations, then ArrayList may be a better choice.
 */
