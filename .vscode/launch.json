@@ -2,6 +2,27 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "type": "java",
+      "name": "ArrayPgm",
+      "request": "launch",
+      "mainClass": "AdvJava.Collection.ArrayPgm",
+      "projectName": "JAVA-DSA_b53ab63a"
+    },
+    {
+      "type": "java",
+      "name": "Array",
+      "request": "launch",
+      "mainClass": "AdvJava.Collection.Array",
+      "projectName": "JAVA-DSA_b53ab63a"
+    },
+    {
+      "type": "java",
+      "name": "ArrayList",
+      "request": "launch",
+      "mainClass": "AdvJava.Collection.ArrayList",
+      "projectName": "JAVA-DSA_b53ab63a"
+    },
+    {
       "name": "C/C++ Runner: Debug Session",
       "type": "cppdbg",
       "request": "launch",
