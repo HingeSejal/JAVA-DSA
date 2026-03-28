@@ -31,4 +31,26 @@ e.g imagine if u dont know the no of records in database on system and on applic
                     Vector
                     PriorityQueue
 
+
+---------------------- ArrayList vs Vector --------------------------------------
+
+ArrayList is not synchronized and is not thread-safe, 
+-> means that multiple threads can access and modify an ArrayList simultaneously, 
+-> which can lead to data corruption or unexpected behavior.
+-> if ArrayList is full then while increasing it increaes its size by 50% of its current size. (Growble nature)
+-> bydefault arraylist has capacity of 10
+-> ArrayList is generally faster than Vector because it is not synchronized
+-> synchronization adds overhead to the operations performed on a Vector, which can slow down performance.
+-> in arraylist no method to get capacity of arraylist
+
+while Vector is synchronized and is thread-safe.
+-> means that only one thread can access and modify a Vector at a time,
+-> which can help prevent data corruption and ensure thread safety.
+-> if Vector is full then while increasing it increases its size by 100% of its current size. (Growble nature)
+-> bydefault vector has capacity of 10
+-> u can also create vector with specific initial capacity and increment value
+
+what should u chose between arraylist and vector ?
+-> if u need a thread-safe implementation of a list, then Vector may be a good choice.
+-> However, if you do not need thread safety and want better performance, then ArrayList may be a better choice.
 */
