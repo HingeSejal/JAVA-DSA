@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "countOnesPgm",
+      "request": "launch",
+      "mainClass": "DSA.Bits.countOnesPgm",
+      "projectName": "JAVA-DSA_b53ab63a"
+    },
+    {
+      "type": "java",
       "name": "ArrayPgm",
       "request": "launch",
       "mainClass": "AdvJava.Collection.ArrayPgm",
