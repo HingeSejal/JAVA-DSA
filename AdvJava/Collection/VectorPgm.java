@@ -35,7 +35,7 @@ public class VectorPgm {
 
 //         Iterator ir = vector.iterator();
 //         int cnt = 0 ;
-//         while(ir.hasNext()){
+//         while(ir.hasNext()){ //moves forward
 //             String str = (String) ir.next();
 //  //       here vector is of string type so we can directly use string type instead of object type 
 //             if (str.equals("Pune")){ 
@@ -44,7 +44,7 @@ public class VectorPgm {
 //         }
 //         System.out.println("Number of 'Pune' elements: " + cnt);
 
-        for(String str : vector){
+        for(String str : vector){ // move forward only
                 System.out.println(str);
             }
     //-----------------------------------------------------------------------------------------
