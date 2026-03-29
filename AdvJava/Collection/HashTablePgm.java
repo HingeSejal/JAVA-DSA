@@ -34,5 +34,10 @@ public class HashTablePgm {
             // System.out.print(keys.nextElement() + " ");
         }
         System.out.println();
+
+        for(Integer key : ht.keySet()) { //keySet() returns a Set of keys in the hashtable
+            String value = ht.get(key);
+            System.out.println("Key: " + key + ", Value: " + value);
+        }
     }
 }
