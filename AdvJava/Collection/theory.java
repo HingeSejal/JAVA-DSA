@@ -147,4 +147,11 @@ ArrayList is a resizable array implementation of the List interface, which means
 -> it provides fast random access to elements because it uses an array to store the elements.
 -> it is not synchronized, which means that it is not thread-safe 
 -> should not be used in multi-threaded environments without proper synchronization.
+
+---------------------------------- HashSet vs TreeSet vs LinkedHashSet -----------------------------------
+HashSet -> no duplicate , no order
+TreeSet -> no duplicate , sorted order
+LinkedHashSet -> no duplicate , insertion order
+
+
 */
