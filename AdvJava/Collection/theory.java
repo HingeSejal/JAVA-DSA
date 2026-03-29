@@ -83,4 +83,67 @@ Disadvantage of LinkedList
 which one is preferable between ArrayList and LinkedList ?
 -> if u need to perform a lot of insertions and deletions , then LinkedList may be a better choice.
 -> However, if u need to perform a lot of random access or retrieval operations, then ArrayList may be a better choice.
+
+----------------------------- Stack vs Queue --------------------------------------
+
+Stack is a linear data structure that follows the Last In First Out (LIFO) principle,
+Queue is a linear data structure that follows the First In First Out (FIFO) principle.
+
+stack operations:
+push() - add an element to the top of the stack
+pop() - remove and return the top element of the stack
+peek() - return the top element without removing it
+size() - return the number of elements in the stack
+isEmpty() - check if the stack is empty
+
+queue operations:
+add() - add an element to the end of the queue
+remove() - remove and return the front element of the queue
+peek() - return the front element without removing it
+size() - return the number of elements in the queue
+isEmpty() - check if the queue is empty
+
+use cases of stack:
+-> function calls in programming languages
+-> undo/redo functionality in text editors
+-> expression evaluation and syntax parsing
+-> backtracking algorithms 
+-> reversing a string
+
+use cases of queue:
+-> scheduling tasks in operating systems
+-> handling requests in web servers
+-> breadth-first search (BFS) algorithm in graph traversal
+-> implementing a buffer in data streaming applications
+
+----------------------------- set vs list ------------------------------------------
+
+Set is a collection that does not allow duplicate elements and sorts the elements in natural order.
+-> stores unique elements only because 
+-> it uses a hash table to store the elements, which does not allow duplicate keys.
+-> when u try to add duplicate element it will simply ignore it and not throw any error
+
+List is a collection that allows duplicate elements and maintains the order of elements.
+-> it uses an array to store the elements, which allows duplicate values and maintains the order of insertion.
+
+use cases of set:
+-> storing unique values, such as a list of unique email addresses or a set of unique user IDs.
+-> performing mathematical operations, such as union, intersection, and difference between sets.
+-> implementing a cache to store recently accessed data, where duplicate entries are not allowed.
+   where cache is a temporary storage area that holds frequently accessed data to improve performance.
+
+use cases of list:
+-> storing a list of customer orders or a list of products in an inventory system.
+-> implementing a to-do list application, where users can add and remove tasks from the list.
+-> maintaining a history of user actions in an application, where duplicate entries may be allowed.
+
+----------------------------- Arraylist vs list -----------------------------------
+
+list is an interface in Java that defines a collection of ordered elements
+ArrayList is a concrete implementation of the List interface that uses an array to store the elements.
+
+also we have other implementations of list interface like linkedlist , stack and vector
+ArrayList is a resizable array implementation of the List interface, which means that it can grow and shrink dynamically as elements are added or removed.
+-> it provides fast random access to elements because it uses an array to store the elements.
+
 */
