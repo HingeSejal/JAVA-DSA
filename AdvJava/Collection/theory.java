@@ -182,4 +182,18 @@ how does Hashtable work ?
 -> does not allow null keys or values.
 -> store key value by taking hashcode of key 
 -> hashcode is calculated using the hashCode() method of the key object
+
+----------------------------------------------------------------------------------
+
+List<String> list = new ArrayList<>(); //means list is reference to an object of type ArrayList
+List<String> list = new LinkedList<>(); // means list is reference to an object of type LinkedList
+
+Set<String> set = new HashSet<>(); // means set is reference to an object of type HashSet
+Set<String> set = new TreeSet<>(); // means set is reference to an object of type TreeSet
+Set<String> set = new LinkedHashSet<>(); // means set is reference to an object of type LinkedHashSet
+
+Queue<String> queue = new LinkedList<>(); 
+
+
+
 */   
