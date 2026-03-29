@@ -27,7 +27,7 @@ e.g imagine if u dont know the no of records in database on system and on applic
                         |                 |                             Hashtable
                     ArrayList           HashSet
                     LinkedList          TreeSet 
-                    Stack
+                    Stack               LinkedHashSet
                     Vector
                     PriorityQueue
 
@@ -153,5 +153,33 @@ HashSet -> no duplicate , no order
 TreeSet -> no duplicate , sorted order
 LinkedHashSet -> no duplicate , insertion order
 
+----------------------------------- HashMap vs LinkedHashMap vs Hashtable -----------------------------------
 
-*/
+HashMap -> no duplicate keys , no order
+LinkedHashMap -> no duplicate keys , insertion order
+Hashtable -> no duplicate keys , no order , synchronized
+
+how does HashMap work ?
+-> HashMap uses a hash table to store key-value pairs.
+-> When a key-value pair is added to the HashMap, the hash code of the key is calculated 
+-> used to determine the index in the hash table where the key-value pair should be stored.
+-> If there is a collision (i.e., two different keys have the same hash code), 
+   a) when some indexes are empty, 
+          HashMap uses open addressing to resolve the collision 
+          by finding the next available index in the hash table to store the key-value pair.
+   b) when all other indexes are occupied, 
+          the HashMap uses a linked list to store multiple key-value pairs at the same index.
+
+
+how does LinkedHashMap work ?
+-> LinkedHashMap is a subclass of HashMap that maintains a linked list of the entries in the map,
+-> which allows it to maintain the order of insertion of the key-value pairs.
+
+how does Hashtable work ?
+-> Hashtable is a legacy class that is similar to HashMap but is synchronized 
+   means only one thread can access and modify a Hashtable at a time, 
+   which can help prevent data corruption and ensure thread safety. 
+-> does not allow null keys or values.
+-> store key value by taking hashcode of key 
+-> hashcode is calculated using the hashCode() method of the key object
+*/   
