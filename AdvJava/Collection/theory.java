@@ -145,5 +145,6 @@ ArrayList is a concrete implementation of the List interface that uses an array 
 also we have other implementations of list interface like linkedlist , stack and vector
 ArrayList is a resizable array implementation of the List interface, which means that it can grow and shrink dynamically as elements are added or removed.
 -> it provides fast random access to elements because it uses an array to store the elements.
-
+-> it is not synchronized, which means that it is not thread-safe 
+-> should not be used in multi-threaded environments without proper synchronization.
 */
