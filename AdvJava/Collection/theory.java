@@ -148,10 +148,14 @@ ArrayList is a resizable array implementation of the List interface, which means
 -> it is not synchronized, which means that it is not thread-safe 
 -> should not be used in multi-threaded environments without proper synchronization.
 
+ArrayList -> duplicates allowed , no sorting order , allows null values
+
 ---------------------------------- HashSet vs TreeSet vs LinkedHashSet -----------------------------------
 HashSet -> no duplicate , no order
 TreeSet -> no duplicate , sorted order
 LinkedHashSet -> no duplicate , insertion order
+
+duplicate + sorted -> collection.sort()
 
 ----------------------------------- HashMap vs LinkedHashMap vs Hashtable -----------------------------------
 
