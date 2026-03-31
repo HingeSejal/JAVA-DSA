@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "reverseStr",
+      "request": "launch",
+      "mainClass": "DSA.Strings.reverseStr",
+      "projectName": "JAVA-DSA_b53ab63a"
+    },
+    {
+      "type": "java",
       "name": "printNumbers",
       "request": "launch",
       "mainClass": "DSA.Recursion.printNumbers",
