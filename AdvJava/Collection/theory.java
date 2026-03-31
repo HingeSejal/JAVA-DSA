@@ -198,6 +198,9 @@ Set<String> set = new LinkedHashSet<>(); // means set is reference to an object 
 
 Queue<String> queue = new LinkedList<>(); 
 
+--------------------------------
+
+linkhashmap vs concurrent vs identity
 
 
 */   
