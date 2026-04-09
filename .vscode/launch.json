@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "D",
+      "request": "launch",
+      "mainClass": "CoreJava.OOP.D",
+      "projectName": "JAVA-DSA_b53ab63a"
+    },
+    {
+      "type": "java",
+      "name": "findseq",
+      "request": "launch",
+      "mainClass": "DSA.Array.findseq",
+      "projectName": "JAVA-DSA_b53ab63a"
+    },
+    {
+      "type": "java",
       "name": "reverseStr",
       "request": "launch",
       "mainClass": "DSA.Strings.reverseStr",
