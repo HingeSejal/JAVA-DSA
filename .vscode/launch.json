@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "goldwire",
+      "request": "launch",
+      "mainClass": "TcsNqt.goldwire",
+      "projectName": "JAVA-DSA_b53ab63a"
+    },
+    {
+      "type": "java",
       "name": "D",
       "request": "launch",
       "mainClass": "CoreJava.OOP.D",
