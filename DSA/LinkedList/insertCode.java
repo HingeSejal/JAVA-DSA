@@ -61,6 +61,7 @@ public class insertCode {
         list.insertFirstNode(34);
         list.insertFirstNode(89);
         list.insertFirstNode(98);
+        list.insertLLastNode(100);
         list.display();
     }
     
