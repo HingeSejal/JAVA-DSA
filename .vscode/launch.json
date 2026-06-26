@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "insertCode",
+      "request": "launch",
+      "mainClass": "DSA.LinkedList.insertCode",
+      "projectName": "JAVA-DSA_b53ab63a"
+    },
+    {
+      "type": "java",
       "name": "goldwire",
       "request": "launch",
       "mainClass": "TcsNqt.goldwire",
